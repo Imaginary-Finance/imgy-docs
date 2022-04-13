@@ -1,0 +1,30 @@
+{
+    "headers" : [
+        "Contract",
+        "Address",
+        "Source"
+    ],
+    "align" : [
+        "L",
+        "R",
+        "R"
+    ],
+    "dataFormat" : [
+        "{}",
+        "{}",
+        "[Github](https://github.com/Imaginary-Finance/IMGYv1-drafts/tree/main/contracts{})"
+    ],
+    "rows" : [
+        {
+            "contract" : "Imaginary Stable",
+            "address" : "0xDEF06aE791F730b55ccC63AEABa75B2498B71bF4",
+            "source_file" : "/stable/ImaginaryStable.sol"
+        },
+        
+        {
+            "contract" : "Imaginary Mint",
+            "address" : "0xDEF06aE791F730b55ccC63AEABa75B2498B71bF4",
+            "source_file" : "/legacy/ImaginaryMint.sol"
+        }
+    ]
+}
