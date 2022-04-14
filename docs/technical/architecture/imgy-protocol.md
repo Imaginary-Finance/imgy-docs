@@ -10,7 +10,10 @@ description: Architecture of IMGY Protocol
 IMGY Protocol consists of the [HELLPs](./hellps), and the IMGY token
 
 ## Architecture Overview
-![Example banner](../../../static/img/imgy.svg)
+
+![Example banner](../../../static/img/background.png)
+
+🚧 Image Coming
 
 ## HELLPs
 Locker/Lender pairs allowing users to deposit assets and borrow stablecoins.

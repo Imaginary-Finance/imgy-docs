@@ -10,29 +10,27 @@ import styled from "@emotion/styled";
 import ThemedImage from "@theme/ThemedImage";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
-import SearchBar from "@theme-original/SearchBar";
-
 export const actions = [
   {
-    title: "What is Uniswap",
+    title: "What is Imaginary",
     href: "#",
     icon: 'InformationCircleIcon',
-    to: "./protocol/introduction",
+    to: "./docs/intro",
     text: `Learn about the core concepts of the Uniswap Protocol. Swaps, Pools, Concentrated Liquidity and more.`,
   },
   {
     title: "Smart contract overview",
     href: "#",
     icon: 'BookOpenIcon',
-    to: "./protocol/reference/smart-contracts",
+    to: "./docs/technical/architecture/imgy-protocol",
     text: `Learn about the architecture of the Uniswap Protocol smart contracts made up of the Core and Periphery libraries.`,
   },
   {
-    title: "V3 SDK",
+    title: "Web App",
     href: "#",
-    icon: 'QuestionMarkCircleIcon',
-    to: "./sdk/introduction",
-    text: `The SDK is designed to assist developers when interacting with the protocol in any environment that can execute JavaScript.`,
+    icon: 'BookOpenIcon',
+    to: "https://imaginary.fi",
+    text: `Deposit or withdraw assets, view or manage your loans, or create a new one within the Imaginary Protocol.`,
   },
 ];
 
@@ -283,8 +281,7 @@ const HideMedium = styled.div`
 export default function Home() {
   return (
     <Layout
-      title={`Uniswap Docs`}
-      description="Technical Documentation For The Uniswap Protocol"
+      description="Technical Documentation For The Imaginary Protocol"
     >
       <Container>
         <DocsHeader>
@@ -306,20 +303,20 @@ export default function Home() {
               }}
             >
               The pages that follow contain comprehensive documentation of the
-              Uniswap ecosystem. If you are new to Uniswap, you might want to
+              Imaginary ecosystem. If you are new to Imaginary, you might want to
               check out the{" "}
               <Link
                 style={{ color: "#ff007a" }}
-                to="https://docs.uniswap.org/protocol/introduction"
+                to="./docs/concepts/imaginary"
               >
                 Protocol Overview
               </Link>{" "}
               or{" "}
               <Link
                 style={{ color: "#ff007a" }}
-                to="https://help.uniswap.org/en/collections/3033722-faq"
+                to="./docs/intro"
               >
-                FAQ
+                Intro
               </Link>{" "}
               first.
             </p>
