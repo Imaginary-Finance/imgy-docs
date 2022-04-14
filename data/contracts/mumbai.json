@@ -11,7 +11,7 @@
     ],
     "dataFormat" : [
         "{}",
-        "{}",
+        "[{}](https://polygonscan.com/address/{})",
         "[Github](https://github.com/Imaginary-Finance/IMGYv1-drafts/tree/main/contracts{})"
     ],
     "rows" : [

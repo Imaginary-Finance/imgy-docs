@@ -29,7 +29,7 @@ function formatTableData(el) {
     const formattedHeader = formatter(headers, (e,)=>(e))
     const formattedAlign  = formatter(align, (e,) => alignSwitch(e))
     const formattedData   = rows.map(
-        el => formatter(Object.values(el), (e,i)=> format[i].replace('{}', e) )
+        el => formatter(Object.values(el), (e,i)=> format[i].split('{}').join(e) )
     ).join('\n')
 
     return(`${formattedHeader}
@@ -61,14 +61,16 @@ async function getTableDatas() {
 async function main() {
 
     const datas = await getTableDatas();
-    console.log(datas)
 
     datas.map(el => {
         const content = formatTableData(el)
 
         writeFile(`./scripts/table/gen/${el.file.split('.')[0]}.md`,content)
+        console.log(`wrote file ${el.file.split('.')[0]}.md`)
         return
     })
+
+    console.log('done')
 
 }
 
