@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/Imaginary-Finance/imgy-docs',
+          editUrl: 'https://github.com/Imaginary-Finance/imgy-docs/blob/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/Imaginary-Finance/imgy-docs',
+            'https://github.com/Imaginary-Finance/imgy-docs/blob/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

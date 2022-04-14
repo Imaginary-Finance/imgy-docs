@@ -9,6 +9,9 @@ description: Architecture of IMGY Protocol
 ## Protocol Overview
 IMGY Protocol consists of the [HELLPs](./hellps), and the IMGY token
 
+## Architecture Overview
+![Example banner](../../../static/img/imgy.svg)
+
 ## HELLPs
 Locker/Lender pairs allowing users to deposit assets and borrow stablecoins.
 
@@ -17,8 +20,4 @@ The Imaginary Tokens represent shares to protocol revenue. As Imaginary runs it'
 
 Users holding the `IMGY` token may use that token as collateral within a specialized HELLP. Their collateral value is calculated based on the worth of the tokens as shares of the Imaginary Vault. Effectively allowing user's to borrow against protocol revenue.
 
-## Architecture Overview
-
-You have just learned the **basics of Imaginary**, if your brain hasn't popped - give yourself a high five!
-
-Secret Word is *goober*
+Secret Word is *grenadine*
