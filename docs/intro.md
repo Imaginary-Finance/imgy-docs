@@ -23,11 +23,11 @@ Even further, interest bearing assets, or sub-contracted assets, can be used to 
 ## Learn More
 Learn how HELLPs work
 
-> [HELLPs](concepts/hellps)
+> [HELLPs](technical/architecture/hellps)
 
 Get a grasp of Imaginary as a whole
 
-> [Protocol Overview](imaginary.md)
+> [Protocol Overview](./concepts/imaginary)
 
 ## Guides
 
