@@ -27,7 +27,7 @@ Learn how HELLPs work
 
 Get a grasp of Imaginary as a whole
 
-> [Protocol Overview](concepts/protocol-overview)
+> [Protocol Overview](imaginary.md)
 
 ## Guides
 

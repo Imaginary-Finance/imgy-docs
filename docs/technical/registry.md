@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Registry'
-sidebar_position: 1
+sidebar_position: 20
 id: registry
 title: Registry
 description: Registry
