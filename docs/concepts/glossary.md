@@ -6,8 +6,4 @@ title: Glossary
 description: Glossary
 ---
 
-### Collateral
-
-
-
-### Liquid
+🚧🚧🚧

@@ -1,12 +1,10 @@
 ---
-sidebar_label: 'HELLPs'
+sidebar_label: 'Lockers'
 sidebar_position: 4
-id: hellps
-title: HELLPs
-description: High Efficiency Locker/Lender Pairs
+id: lockers
+title: Lockers
+description: Types of Lockers
 ---
-
-## High Efficiency Locker/Lender Pairs
 
 HELLPs are a pair of contracts that work in tandem to allow the user to borrow a stable value, at a stable rate, against their assets while retaining security and control.
 

@@ -8,9 +8,9 @@ description: Inverse Liquidations
 
 ### Introduction
 
-A borrower's position is usually liquidated only when their collateral can no longer back their loan. On the opposite end of the spectrum, when the collateral outgrows the borrower's loan, the position can also be liquidated. Imaginary calls this an Inverse Liquidation (IL). 
+A borrower's position is usually liquidated only when their collateral can no longer back their loan. On the opposite end of the spectrum, when the collateral outgrows the borrower's loan, the position could also be liquidated (minus the nasty liquidation fee). Imaginary calls this an Inverse Liquidation (IL). 
 
-Most commonly applied to interest bearing assets, ILs acheive self-paying loans in a smaller package than competing protocols.
+Mostly applied to interest bearing assets, ILs acheive self-paying loans in a smaller package than competing protocols.
 
 ### How does it work?
 

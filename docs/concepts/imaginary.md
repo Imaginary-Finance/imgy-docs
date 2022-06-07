@@ -7,26 +7,24 @@ description: Overview of IMGY
 ---
 
 ## Introduction
-Imaginary is a framework for using an asset's value independently of the asset. The protocol mirrors an illiquid asset's value into external, liquid tokens. Assets that may have long-term holding value, illiquid value, or inherently growing value can be locked within Imaginary, and without selling, have their value converted into stablecoins.
+Imaginary is a framework for using an asset's value independently of the asset. 
 
-### Isolating Blockchain Assets
+The protocol mirrors an illiquid asset's value into external, liquid tokens. Called Issued Stablecoins.
 
-Assets exist, stored and secured, on the blockchain. Within this relatively closed market, the price of an asset is synonomous with the amount of currency one party would be willing to relinquish to obtain that asset.
+Assets that may have long-term holding value, illiquid value, or inherently growing value can be locked within Imaginary, and without selling, have their value converted into stablecoins.
 
-Implemented with smart contracts, Imaginary plays the role of enabling assets to be isolated and that value manipulated. The smart contracts, acting as a sort of saftey deposit box, enfore rules upon the asset under certain conditions: namely, forcing the asset to remain illiquid while there is outstaind debt.
+## Lockers/Lender
+Lockers are where user's deposit their assets. There are specialized lockers for each supported asset. Each locker is tuned to accuratly obtain valuations of the particular asset on-demand.
 
-This creates a mechanism where the illiquid asset's value can represented by the borrowed stablecoins within the liquid market.
+## Imaginary Governance
 
-### Capital Efficiency
 
-While assets are locked within the protocol, they become capital inefficent. Illiquid from the greater market, sitting inside Imaginary. 
+## Learn More
+> [Isolating Value](./isolating-value.md)
+ 
+> [Inverse Liquidations](./inverse-liquidations.md)
 
-Assets with the appropriate support, can be sub-contracted out to other DeFi protocols, to actively generate revenue for the user and increase capital efficiency.
-
-More on this coming soon as we continue building.
-
-### Congratulations
-
+## Conclusion
 You have just learned the **basics of Imaginary**, if your brain hasn't popped - give yourself a high five! Oh, and if that wasn't enough, we're still in active development.
 
 Secret Word is *goober*
