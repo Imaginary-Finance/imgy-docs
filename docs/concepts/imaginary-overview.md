@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'Imaginary'
+sidebar_label: 'Imaginary Overview'
 sidebar_position: 1
-id: imaginary
-title: Imaginary
-description: Overview of IMGY
+id: imaginary-overview
+title: Imaginary Overview
+description: Overview of IMGY Protocol
 ---
 
 ## Introduction

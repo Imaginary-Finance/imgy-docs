@@ -22,12 +22,14 @@ Even further, interest bearing assets, or sub-contracted assets, can be used to 
 
 ## Learn More
 
-> [Protocol Overview](./concepts/imaginary)
+[Protocol Overview](concepts/imaginary-overview.md)
 
 ## Guides
 
-## Developer Reference
+[Smart Contracts](guides/navigating.md)
+
 
 ## Technical Reference
 
-[Smart Contracts](technical/registry.md)
+[Smart Contracts](technical/contracts.md)
+[Deployed Addresses](technical/registry.md)
