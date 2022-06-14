@@ -6,7 +6,7 @@ title: ILender
 description: Lender Interface
 ---
 
-> Functions involving collateral are handled by the Locker, and can be found in [ILocker](ilocker.md)
+> Functions involving collateral are handled by the Locker, and can be found in [ILocker](./ilocker.md)
 
 ## Functions
 `borrow( address locker, uint256 id, uint256 amount )`

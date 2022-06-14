@@ -8,7 +8,7 @@ description: Locker Interface
 
 Lockers are extensions of OpenZeppelin's ERC721 Standard. Their documentation is found [here](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721)
 
-> Functions involving loans are handled by the Lender, and can be found in ILender
+> Functions involving loans are handled by the Lender, and can be found in [ILender](./ilender.md)
 
 ## Functions
 `lockAsset( uint256 id, uint256 amount )`
