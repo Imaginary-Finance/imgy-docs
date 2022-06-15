@@ -10,7 +10,7 @@ Imaginary, at it's core, consists of the Lender and associated Lockers.
 
 ## Architecture Overview
 
-![Example banner](../../../static/img/background.png)
+![Example banner](../../../static/img/diagram.png)
 
 🚧 visualization coming soon
 

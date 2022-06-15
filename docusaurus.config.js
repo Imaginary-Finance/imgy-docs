@@ -8,11 +8,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'IMGY',
   tagline: 'Technical Documentation',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.imaginary.fi',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/imgy.ico',
   organizationName: 'Imaginary', // Usually your GitHub org/user name.
   projectName: 'IMGY-DOCS', // Usually your repo name.
 
