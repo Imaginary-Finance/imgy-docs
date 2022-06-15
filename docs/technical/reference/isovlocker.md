@@ -6,9 +6,11 @@ title: ISovLocker
 description: Sovereign Locker Interface
 ---
 
+# Sovereign Locker Interface 
+
 Lockers are extensions of OpenZeppelin's ERC721 Standard. Their documentation is found [here](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721)
 
-> This time of locker handles collateral and lending, all functions will be here
+> This type of locker handles collateral and lending, all functions will be here
 
 ## Functions
 `lockAsset( uint256 id, uint256 amount )`
