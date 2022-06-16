@@ -21,15 +21,12 @@ While a user's portfolio has its value tied up in different assets, the user may
 Even further, interest bearing assets, or sub-contracted assets, can be used to create negative interest-rate loans! (*loans that pay themselves off*)
 
 ## Learn More
-
-[Protocol Overview](./concepts/imaginary-overview.md)
+> [Protocol Overview](./concepts/imaginary-overview.md)
 
 ## Guides
-
-[Smart Contracts](./guides/navigating.md)
-
+> [Smart Contracts](./guides/navigating.md)
 
 ## Technical Reference
+> [Smart Contracts](./technical/reference/contracts.md)
 
-[Smart Contracts](./technical/reference/contracts.md)
-[Deployed Addresses](./technical/networks/registry.md)
+> [Deployed Addresses](./technical/networks/registry.md)
