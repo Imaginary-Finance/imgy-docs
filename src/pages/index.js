@@ -16,76 +16,37 @@ export const actions = [
     href: "#",
     icon: 'InformationCircleIcon',
     to: "./docs/intro",
-    text: `Learn about the core concepts of the Uniswap Protocol. Swaps, Pools, Concentrated Liquidity and more.`,
+    text: `Learn about the core concepts of the Imaginary Protocol.`,
   },
   {
     title: "Smart contract overview",
     href: "#",
     icon: 'BookOpenIcon',
-    to: "./docs/technical/architecture/imgy-protocol",
-    text: `Learn about the architecture of the Uniswap Protocol smart contracts made up of the Core and Periphery libraries.`,
+    to: "./docs/technical/architecture/protocol-overview",
+    text: `Learn about the architecture of the Imaginary Protocol smart contracts.`,
   },
   {
-    title: "Web App",
+    title: "Contract Registry",
     href: "#",
     icon: 'BookOpenIcon',
-    to: "https://imaginary.fi",
-    text: `Deposit or withdraw assets, view or manage your loans, or create a new one within the Imaginary Protocol.`,
+    to: "./docs/technical/registry",
+    text: `Deposit or withdraw assets, view or manage your loans, within the Imaginary Protocol.`,
   },
 ];
 
 export const github = [
   {
-    title: "uniswap-v3-core",
-    href: "https://github.com/Uniswap/uniswap-v3-core",
-    icon: 'CodeIcon',
-  },
-  {
-    title: "uniswap-v3-sdk",
-    href: "https://github.com/Uniswap/uniswap-v3-sdk",
-    icon: 'CodeIcon',
-  },
-  {
-    title: "uniswap-v3-periphery",
-    href: "https://github.com/Uniswap/uniswap-v3-periphery",
-    icon: 'CodeIcon',
-  },
-  {
-    title: "Deployment addresses",
-    href: "https://github.com/Uniswap/uniswap-v3-periphery/blob/main/deploys.md",
-  },
-  {
-    title: "@uniswap/widgets",
-    href: "https://www.npmjs.com/package/@uniswap/widgets",
+    title: "IMGYv1",
+    href: "https://github.com/Imaginary-Finance/IMGYv1-drafts",
     icon: 'CodeIcon',
   },
 ];
 
 export const Guides = [
   {
-    title: "SDK Quick Start",
-    text: "Integrate with the Uniswap Protocol using JavaScript",
-    to: "./sdk/guides/quick-start",
-  },
-  {
-    title: "Embedding a Swap Widget",
-    text: "Let your users trade tokens without leaving your dApp",
-    to: "./sdk/widgets/swap-widget",
-  },
-  {
-    title: "Implementing a Swap",
-    text: "Start swapping from a smart contract in Solidity",
-    to: "./protocol/guides/swaps/single-swaps",
-  },
-  {
-    title: "Providing Liquidity",
-    text: "Provide liquidity from a smart contract in Solidity",
-    to: "./protocol/guides/providing-liquidity/setting-up",
-  },
-  {
-    title: "Building an Oracle",
-    text: "Learn how Uniswap v3 pools can serve as oracles",
-    to: "./protocol/concepts/V3-overview/oracle",
+    title: "Navigating the Dashboard",
+    text: "Learn how to effectively utilize the interface",
+    to: "./docs/guides/navigating",
   },
 ];
 
@@ -294,7 +255,7 @@ export default function Home() {
               alignItems: "center",
             }}
           >
-            <h1 style={{ fontWeight: "600" }}> Welcome to the Uniswap Docs</h1>
+            <h1 style={{ fontWeight: "600" }}>Imaginary Documentation Hub</h1>
             <p
               style={{
                 maxWidth: "640px",
@@ -302,23 +263,15 @@ export default function Home() {
                 fontWeight: 500,
               }}
             >
-              The pages that follow contain comprehensive documentation of the
-              Imaginary ecosystem. If you are new to Imaginary, you might want to
+              Here is the Imaginary ecosystem documentation. 
+              If you are new to Imaginary, you might want to
               check out the{" "}
               <Link
                 style={{ color: "#ff007a" }}
-                to="./docs/concepts/imaginary"
-              >
-                Protocol Overview
-              </Link>{" "}
-              or{" "}
-              <Link
-                style={{ color: "#ff007a" }}
                 to="./docs/intro"
-              >
-                Intro
+              >Introduction
               </Link>{" "}
-              first.
+              to start.
             </p>
           </div>
           <StyledTitleImage
@@ -475,48 +428,6 @@ export default function Home() {
         </TwoRow>
 
         <hr />
-        <TwoRow
-          style={{
-            gap: "48px",
-            alignItems: "center",
-          }}
-        >
-          <StyledImage
-            style={{ maxHeight: "400px" }}
-            sources={{
-              light: useBaseUrl("/img/use.png"),
-              dark: useBaseUrl("/img/use2.png"),
-            }}
-          />
-          <div>
-            <h2>Quick Links</h2>
-            <p></p>
-            {quick.map((action) => (
-              <Link style={{}} to={action.to || action.href}>
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    marginBottom: "0.5rem",
-                  }}
-                >
-                  <h3 style={{ marginBottom: "0rem" }}>{action.title}</h3>
-
-                  <svg
-                    style={{ width: "16px", opacity: 0.2 }}
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
-                  </svg>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </TwoRow>
-
-        <hr />
 
         <Row>
           <Link
@@ -527,11 +438,12 @@ export default function Home() {
               <Discord style={{ width: "48px", height: "48px" }} />
               <div>
                 <h3>Discord</h3>
-                <p>Hop in to the #dev-chat to get realtime help.</p>
+                <p>Hop in and connect with the community.</p>
               </div>
             </CenterCard>
           </Link>
-          <Link
+
+          {false && (<Link
             style={{ textDecoration: "none" }}
             href={"https://gov.uniswap.org/"}
           >
@@ -542,7 +454,7 @@ export default function Home() {
                 <p>Discuss governance and more.</p>
               </div>
             </CenterCard>
-          </Link>
+          </Link>)}
 
           <Link
             style={{ textDecoration: "none" }}
@@ -596,7 +508,7 @@ export default function Home() {
               </StyledGithubIcon>
               <div>
                 <h3>GitHub</h3>
-                <p>View all Uniswap repositories.</p>
+                <p>View all Imaginary repositories.</p>
               </div>
             </CenterCard>
           </Link>
@@ -608,7 +520,7 @@ export default function Home() {
             margin: "0 auto 4rem auto",
             width: "100%",
           }}
-          href={"https://unigrants.org/"}
+          href={"https://imaginary.fi/"}
         >
           <WideCard
             style={{
@@ -618,13 +530,12 @@ export default function Home() {
               gap: "24px",
             }}
           >
-            <img src={UGP} width={"120px"} />
+            <UGP style={{ width: "48px", height: "48px" }} />
             <div>
-              <h2 style={{ marginBottom: "0.5rem" }}>Uniswap Grants Program</h2>
+              <h2 style={{ marginBottom: "0.5rem" }}>Imaginary Web Interface</h2>
               <p style={{ margin: "0rem" }}>
-                Uniswap Governance offers grant funding for people who are
-                building apps, tools, and activities for Uniswap Protocol users,
-                builders, and community members.{" "}
+                Create lockers, deposit and withdraw assets, and manage loans
+                with the web interface.{" "}
               </p>
             </div>
           </WideCard>
