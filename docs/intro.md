@@ -31,5 +31,5 @@ Even further, interest bearing assets, or sub-contracted assets, can be used to 
 
 ## Technical Reference
 
-[Smart Contracts](./technical/contracts.md)
-[Deployed Addresses](./technical/registry.md)
+[Smart Contracts](./technical/reference/contracts.md)
+[Deployed Addresses](./technical/networks/registry.md)

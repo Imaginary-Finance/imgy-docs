@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'ISovLocker'
-sidebar_position: 3
+sidebar_position: 4
 id: isovlocker
 title: ISovLocker
 description: Sovereign Locker Interface

@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'ILocker'
-sidebar_position: 1
+sidebar_position: 2
 id: ilocker
 title: ILocker
 description: Locker Interface

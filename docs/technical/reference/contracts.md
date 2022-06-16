@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Contracts'
-sidebar_position: 10
+sidebar_position: 1
 id: contracts
 title: Contracts
 description: Architecture of Contracts
