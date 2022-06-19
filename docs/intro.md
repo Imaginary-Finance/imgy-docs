@@ -6,6 +6,8 @@ title: Overview
 description: Overview of IMGY Docs
 ---
 
+> 🚧 As the protocol is in active development, the docs are expected to change often.
+
 ## Introduction
 
 Imaginary is an asset-agnostic, automated stablecoin protocol. This means user's may deposit blockchain assets to borrow stablecoins at mind-bending interest rates.
