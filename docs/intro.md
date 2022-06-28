@@ -24,7 +24,7 @@ At it's core, Imaginary is an asset-agnostic, automated stablecoin protocol. Thi
 In other words, users can convert an asset's value into stablecoins for easy sending, spending, or investing!
 While a user's portfolio has its value tied up in different assets, the user may mint stablecoins against those assets to reallocate their portfolio's value without selling the assets.
 
-Even further, interest bearing assets, or sub-contracted assets, can be used to create *self-resolving loans* (loans that pay themselves off)
+Even further, interest bearing assets, can be used to create *self-resolving loans* (loans that pay themselves off)
 
 ## Learn More
 > [Protocol Overview](./concepts/imaginary-overview.md)
