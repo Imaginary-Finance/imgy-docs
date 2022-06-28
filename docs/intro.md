@@ -10,17 +10,21 @@ description: Overview of IMGY Docs
 
 ## Introduction
 
-Imaginary is an asset-agnostic, automated stablecoin protocol. This means user's may deposit blockchain assets to borrow stablecoins at mind-bending interest rates.
+In DeFi, End users face many hurdles. There is risk of loosing value to minor expenses during transactions, due to gas, slippage, or fees. They also face having to unwind positions, or withdraw from complicated strategies. This is not only time-intensive but can also incur more expenses. Worse still, their value may be completely locked and illiquid while in more niche DeFi tools.
 
-In other words, you may temporarily convert an asset's value-
+Above even this, **Users face a bigger problem: the attention, and sometimes know-how, required to maintain and/or repay existing loans.**
 
-> *ya know, the value just gathering dust on your wallet's assets*
 
-yeah, convert it into stablecoins easy for sending, spending, or investing!
+## Enter: Imagination
 
+Imaginary attempts to solve the complexity and maintainence of loans against complex assets in DeFi. Imaginary provides ways to connect to the end-user's investments to allow them easy access to borrowing power.
+
+At it's core, Imaginary is an asset-agnostic, automated stablecoin protocol. This means user's may deposit blockchain assets to borrow stablecoins at a native 0% interest rate.
+
+In other words, users can convert an asset's value into stablecoins for easy sending, spending, or investing!
 While a user's portfolio has its value tied up in different assets, the user may mint stablecoins against those assets to reallocate their portfolio's value without selling the assets.
 
-Even further, interest bearing assets, or sub-contracted assets, can be used to create negative interest-rate loans! (*loans that pay themselves off*)
+Even further, interest bearing assets, or sub-contracted assets, can be used to create *self-resolving loans* (loans that pay themselves off)
 
 ## Learn More
 > [Protocol Overview](./concepts/imaginary-overview.md)
