@@ -14,4 +14,6 @@ Mostly applied to interest bearing assets, ILs acheive self-paying loans in a sm
 
 ### How does it work?
 
-🚧🚧🚧
+Inverse Liquidations are carried out via *flash resolution*. Reminicent of flash loans, flash resolutions work very similarly. The contract will flash tokens in and out of other smart contracts to resolve the user's outstanding loan.
+
+🚧 More to come as protocol continues.
