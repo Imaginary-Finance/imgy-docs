@@ -10,9 +10,9 @@ description: Overview of IMGY Docs
 
 ## Introduction
 
-In DeFi, End users face many hurdles. There is risk of loosing value to minor expenses during transactions, due to gas, slippage, or fees. They also face having to unwind positions, or withdraw from complicated strategies. This is not only time-intensive but can also incur more expenses. Worse still, their value may be completely locked and illiquid while in more niche DeFi tools.
+In DeFi, end-users face many hurdles. There is the risk of loosing value to minor expenses during transactions, to gas, slippage, or fees. They also face having to unwind positions, or withdraw from complicated strategies. This is not only time-intensive but can also incur more expenses. Worse still, their value may be completely locked or illiquid while in more niche DeFi tools.
 
-Above even this, **Users face a bigger problem: the attention, and sometimes know-how, required to maintain and/or repay existing loans.**
+Above even this, **Users face a bigger problem: the attention, and sometimes know-how, required to maintain and/or repay DeFi loans.**
 
 
 ## Enter: Imagination
