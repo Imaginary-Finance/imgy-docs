@@ -14,10 +14,9 @@ In DeFi, end-users face many hurdles. There is the risk of loosing value to mino
 
 Above even this, **Users face a bigger problem: the attention, and sometimes know-how, required to maintain and/or repay DeFi loans.**
 
-
 ## Enter: Imagination
 
-Imaginary attempts to solve the complexity and maintainence of loans against complex assets in DeFi. Imaginary provides ways to connect to the end-user's investments to allow them easy access to borrowing power.
+Imaginary attempts to solve the complexity and maintenance of loans against complex assets in DeFi. Imaginary provides ways to connect to the end-user's investments to allow them easy access to borrowing power.
 
 At it's core, Imaginary is an asset-agnostic, automated stablecoin protocol. This means user's may deposit blockchain assets to borrow stablecoins at a native 0% interest rate.
 
