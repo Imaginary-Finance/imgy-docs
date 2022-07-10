@@ -18,7 +18,7 @@ Lockers are where user's deposit their assets. There are specialized lockers for
 Users can take out loans or repay existing loans through Lenders. Lenders handle loan management and debt ceilings across the array of their connected Locker(s). Certain Lenders enable self-paying loans, carried out via flash resolution (see [Inverse Liquidations](./inverse-liquidations.md))
 
 ## Issued Stables
-Lenders will always issue loans in the form of an *issued stablecoin*. These stablecoins are over-collateralized liquid stablecoins backed by the illiquid asset value. The value of the issued stablecoins are pegged to their reference currency and can be exchanged for their counterparts. (1 iUSD = 1 DAI = $1)
+Lenders will always issue loans in the form of an *issued stablecoin*. These stablecoins are over-collateralized liquid stablecoins backed by the illiquid asset value. The value of the issued stablecoins are pegged to their reference currency and can be exchanged for their counterparts. (1 issued stable = 1 USDC = $1)
 
 ## Learn More
 > [Isolating and Evaluating Value](./isolating-value.md)
