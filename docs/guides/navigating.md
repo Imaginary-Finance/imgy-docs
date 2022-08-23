@@ -7,11 +7,3 @@ description: How to navigate the IMGY dashboard
 ---
 
 🚧🚧🚧
-
-create locker
-
-locker list 
-	locker
-
-lender
-
