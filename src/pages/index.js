@@ -1,14 +1,14 @@
-import * as React from "react"
-import Layout from "@theme/Layout"
-import Link from "@docusaurus/Link"
+import * as React from "react";
+import Layout from "@theme/Layout";
+import Link from "@docusaurus/Link";
 
-import Discord from "@site/static/img/imgy.svg"
-import UGP from "@site/static/img/imgy.svg"
+import Discord from "@site/static/img/imgy.svg";
+import UGP from "@site/static/img/imgy.svg";
 
-import styled from "@emotion/styled"
+import styled from "@emotion/styled";
 
-import ThemedImage from "@theme/ThemedImage"
-import useBaseUrl from "@docusaurus/useBaseUrl"
+import ThemedImage from "@theme/ThemedImage";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 export const actions = [
   {
@@ -22,17 +22,17 @@ export const actions = [
     title: "Smart contract overview",
     href: "#",
     icon: "BookOpenIcon",
-    to: "./docs/technical/architecture/protocol-overview",
-    text: `Learn about the architecture of the Imaginary Protocol smart contracts.`,
+    to: "./docs/intro",
+    text: `coming soon`,
   },
   {
     title: "Contract Registry",
     href: "#",
     icon: "BookOpenIcon",
-    to: "./docs/technical/registry",
-    text: `Deposit or withdraw assets, view or manage your loans, within the Imaginary Protocol.`,
+    to: "./docs/intro",
+    text: `coming soon`,
   },
-]
+];
 
 export const github = [
   {
@@ -40,7 +40,7 @@ export const github = [
     href: "https://github.com/Imaginary-Finance/IMGYv1-drafts",
     icon: "CodeIcon",
   },
-]
+];
 
 export const Guides = [
   {
@@ -48,36 +48,13 @@ export const Guides = [
     text: "Learn how to effectively utilize the interface",
     to: "./docs/guides/navigating",
   },
-]
-
-export const ßß = [
-  {
-    title: "Smart Contracts",
-    text: "Start swapping from a smart contract",
-    to: "./protocol/reference/smart-contracts",
-  },
-  {
-    title: "SDK",
-    text: "Start swapping from a smart contract",
-    to: "./sdk/introduction",
-  },
-  {
-    title: "Widgets",
-    text: "Get started with the swap widget",
-    to: "./sdk/widgets/swap-widget",
-  },
-  {
-    title: "Whitepaper",
-    text: "Read the Uniswap V3 whitepaper",
-    to: "https://uniswap.org/whitepaper-v3.pdf",
-  },
-]
+];
 
 const Container = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-`
+`;
 
 const Row = styled.div`
   display: grid;
@@ -97,7 +74,7 @@ const Row = styled.div`
   @media (max-width: 640px) {
     grid-template-columns: 1fr;
   }
-`
+`;
 
 const TwoRow = styled(Row)`
   grid-template-columns: 1fr 1fr;
@@ -109,7 +86,7 @@ const TwoRow = styled(Row)`
   @media (max-width: 640px) {
     grid-template-columns: 1fr;
   }
-`
+`;
 
 const Card = styled.div`
   display: flex;
@@ -120,7 +97,7 @@ const Card = styled.div`
   justify-content: center;
   cursor: pointer;
   border: 1px solid transparent;
-  border-radius: 20px;
+  border-radius: 4px;
   border: 1px solid var(--ifm-color-emphasis-200);
   /* flex: 1 1 0px; */
 
@@ -132,7 +109,7 @@ const Card = styled.div`
   @media (max-width: 960px) {
     width: 100%;
   }
-`
+`;
 
 const CenterCard = styled(Card)`
   min-width: 250px;
@@ -151,7 +128,7 @@ const CenterCard = styled(Card)`
   p {
     margin-bottom: 0px;
   }
-`
+`;
 
 const ShadowCard = styled(Card)`
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
@@ -159,7 +136,7 @@ const ShadowCard = styled(Card)`
   backdrop-filter: blur(10px);
   min-height: 200px;
   /* background-color: var(--ifm-color-emphasis-0); */
-`
+`;
 
 const WideCard = styled(ShadowCard)`
   max-height: auto;
@@ -169,7 +146,7 @@ const WideCard = styled(ShadowCard)`
     max-height: fit-content;
     width: fit-content;
   }
-`
+`;
 
 const IconWrapper = styled.div`
   width: 32px;
@@ -178,7 +155,7 @@ const IconWrapper = styled.div`
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-`
+`;
 
 const TopSection = styled.div`
   width: 100%;
@@ -187,7 +164,7 @@ const TopSection = styled.div`
   display: flex;
   flex-direction: row;
   margin-bottom: 1rem;
-`
+`;
 
 const LinkRow = styled.div`
   width: 100%;
@@ -198,7 +175,7 @@ const LinkRow = styled.div`
   a h3 {
     color: black !important;
   }
-`
+`;
 
 const DocsHeader = styled.div`
   display: flex;
@@ -208,14 +185,14 @@ const DocsHeader = styled.div`
   overflow: hidden;
   width: 100%;
   position: relative;
-`
+`;
 
 const StyledImage = styled(ThemedImage)`
   position: relative;
   z-index: -1;
   width: 100%;
   object-fit: cover;
-`
+`;
 
 const StyledTitleImage = styled(StyledImage)`
   width: 100%;
@@ -225,19 +202,19 @@ const StyledTitleImage = styled(StyledImage)`
   position: absolute;
   opacity: 0.2;
   mask-image: linear-gradient(rgba(0, 0, 0, 1), transparent);
-`
+`;
 
 const StyledGithubIcon = styled.div`
   svg {
     fill: var(--ifm-font-color-base);
   }
-`
+`;
 
 const HideMedium = styled.div`
   @media (max-width: 960px) {
     display: none;
   }
-`
+`;
 
 export default function Home() {
   return (
@@ -253,7 +230,7 @@ export default function Home() {
               alignItems: "center",
             }}
           >
-            <h1 style={{ fontWeight: "600" }}>Imaginary Documentation Hub</h1>
+            <h1 style={{ fontWeight: "600" }}>Imaginary Documentation Overview</h1>
             <p
               style={{
                 maxWidth: "640px",
@@ -261,11 +238,11 @@ export default function Home() {
                 fontWeight: 500,
               }}
             >
-              Here is the Imaginary ecosystem documentation. If you are new to Imaginary, you might want to check out the{" "}
-              <Link style={{ color: "#ff007a" }} to="./docs/intro">
+              Welcome to the Imaginary documentation hub. If you are new to
+              Imaginary, start by reading the{" "}
+              <Link style={{ color: "#85C1E9", textDecoration: 'underline' }} to="./docs/intro">
                 Introduction
-              </Link>{" "}
-              to start.
+              </Link>
             </p>
           </div>
           <StyledTitleImage
@@ -297,7 +274,9 @@ export default function Home() {
                       <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
                     </svg>
                   </TopSection>
-                  <h3 style={{ marginBottom: ".75rem", color: action.color }}>{action.title}</h3>
+                  <h3 style={{ marginBottom: ".75rem", color: action.color }}>
+                    {action.title}
+                  </h3>
                   <p style={{ marginBottom: "0.5rem" }}>{action.text}</p>
                 </ShadowCard>
               </Link>
@@ -305,7 +284,7 @@ export default function Home() {
           </Row>
         </DocsHeader>
 
-        <TwoRow
+        {/* <TwoRow
           style={{
             gap: "56px",
             marginTop: "4rem",
@@ -314,11 +293,16 @@ export default function Home() {
           <div>
             <h2>Getting Started</h2>
             <p>
-              Explore these docs to get started integrating the Imaginary Protocol in your dApp, smart contract or project.
+              Explore these docs to get started integrating the Imaginary
+              Protocol in your dApp, smart contract or project.
             </p>
             <div>
               {Guides.map((action) => (
-                <Link style={{ textDecoration: "none" }} key={action.title} to={action.to}>
+                <Link
+                  style={{ textDecoration: "none" }}
+                  key={action.title}
+                  to={action.to}
+                >
                   <Card key={action.title} style={{ marginBottom: "1rem" }}>
                     <LinkRow>
                       <div style={{ display: "flex", alignItems: "center" }}>
@@ -341,13 +325,22 @@ export default function Home() {
           </div>
           <div>
             <h2>Developer Links</h2>
-            <p>The Imaginary codebase is comprised of an ecosystem of open source components.</p>
+            <p>
+              The Imaginary codebase is comprised of an ecosystem of open source
+              components.
+            </p>
             {github.map((action) => (
               <Link style={{ textDecoration: "none" }} href={action.href}>
                 <Card key={action.title} style={{ marginBottom: "1rem" }}>
                   <LinkRow>
-                    <StyledGithubIcon style={{ display: "flex", alignItems: "center" }}>
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120.78 117.79" style={{ width: "24px" }}>
+                    <StyledGithubIcon
+                      style={{ display: "flex", alignItems: "center" }}
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 120.78 117.79"
+                        style={{ width: "24px" }}
+                      >
                         <defs></defs>
                         <title>testlogo</title>
                         <g id="Layer_2" data-name="Layer 2">
@@ -387,7 +380,9 @@ export default function Home() {
                           </g>
                         </g>
                       </svg>
-                      <h3 style={{ marginBottom: "0rem", marginLeft: "16px" }}>{action.title}</h3>
+                      <h3 style={{ marginBottom: "0rem", marginLeft: "16px" }}>
+                        {action.title}
+                      </h3>
                     </StyledGithubIcon>
                     <svg
                       style={{ width: "24px", height: "24px", opacity: 0.2 }}
@@ -402,10 +397,10 @@ export default function Home() {
               </Link>
             ))}
           </div>
-        </TwoRow>
+        </TwoRow> */}
 
         <hr />
-
+        {/* 
         <Row>
           <Link style={{ textDecoration: "none" }} href={"https://discord.com/invite/fuuH444jnu"}>
             <CenterCard>
@@ -475,7 +470,8 @@ export default function Home() {
               </div>
             </CenterCard>
           </Link>
-        </Row>
+        </Row> */}
+
         <Link
           style={{
             textDecoration: "none",
@@ -495,14 +491,17 @@ export default function Home() {
           >
             <UGP style={{ width: "48px", height: "48px" }} />
             <div>
-              <h2 style={{ marginBottom: "0.5rem" }}>Imaginary Web Interface</h2>
+              <h2 style={{ marginBottom: "0.5rem" }}>
+                Imaginary Web Interface
+              </h2>
               <p style={{ margin: "0rem" }}>
-                Create lockers, deposit and withdraw assets, and manage loans with the web interface.{" "}
+                Create lockers, deposit and withdraw assets, and manage loans
+                with the web interface.{" "}
               </p>
             </div>
           </WideCard>
         </Link>
       </Container>
     </Layout>
-  )
+  );
 }

@@ -6,7 +6,7 @@ title: Overview
 description: Overview of IMGY Docs
 ---
 
-> 🚧 As the protocol is in active development, the docs are expected to change often.
+> 🚧 Imaginary Protocol is currently under development.
 
 ## Introduction
 
