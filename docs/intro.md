@@ -18,20 +18,11 @@ Above even this, **Users face a bigger problem: the attention, and sometimes kno
 
 Imaginary attempts to solve the complexity and maintenance of loans against complex assets in DeFi. Imaginary provides ways to connect to the end-user's investments to allow them easy access to borrowing power.
 
-At it's core, Imaginary is an asset-agnostic, automated stablecoin protocol. This means user's may deposit blockchain assets to borrow stablecoins at a native 0% interest rate.
+At it's core, Imaginary is an collateral-agnostic lending protocol. This means user's may deposit blockchain assets to borrow stablecoins at a flat 0% interest rate.
 
 In other words, users can convert an asset's value into stablecoins for easy sending, spending, or investing!
-While a user's portfolio has its value tied up in different assets, the user may mint stablecoins against those assets to reallocate their portfolio's value without selling the assets.
 
 Even further, interest bearing assets, can be used to create *self-resolving loans* (loans that pay themselves off)
 
-## Learn More
-> [Protocol Overview](./concepts/imaginary-overview.md)
+🔮 We hope you're ready. 
 
-## Guides
-> [Smart Contracts](./guides/navigating.md)
-
-## Technical Reference
-> [Smart Contracts](./technical/reference/contracts.md)
-
-> [Deployed Addresses](./technical/networks/registry.md)
